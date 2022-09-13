@@ -1,0 +1,111 @@
+.one{
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    .h6{
+        width: 15%;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 100px;
+        left: 200px;
+        animation-name: sliderh6;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+
+        h6{
+            font-size: 16px;
+            font-weight: 500;
+            color: #bb0b0b;
+        }
+    }
+
+    @keyframes sliderh6{
+        from{
+            top: 40px;
+            left: 200px;
+        }
+
+        to{
+            top: 100px;
+            left: 200px;
+        }
+    }
+
+    .h1{
+       width: 35%;
+       height: 200px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       position: absolute;
+       top: 150px;
+       left: 200px;
+       animation-name: sliderh1;
+       animation-iteration-count: 1;
+       animation-duration: 1s;
+
+       h1{
+          font-size: 75px;
+          font-weight: 700;
+       }
+    }
+
+    @keyframes sliderh1{
+        from{
+            top: 300px;
+            left: 200px;
+        }
+
+        to{
+            top: 150px;
+            left: 200px;
+        }
+    }
+
+    .p-text{
+        width: 30%;
+        height: 60px;
+        position: absolute;
+        top: 370px;
+        left: 200px;
+
+        p{
+            font-size: 17px;
+            color: #0a0a0a;
+        }
+    }
+
+    .slider1-btn{
+        width: 170px;
+        height: 56px;
+        background-color: #bb0b0b;
+        position: absolute;
+        top: 490px;
+        left: 200px;
+        color: #fff;
+        transition: 1.5s;
+        animation-name: slider-btn;
+        animation-iteration-count: 1;
+        animation-duration: 1s;
+        &:hover{
+            background-color: #600d0d;
+            color: yellow;
+        }
+    }
+
+    @keyframes slider-btn{
+        from{
+            top: 560px;
+            left: 200px;
+        }
+
+        to{
+            top: 490px;
+            left: 200px;
+        }
+    }
+}

@@ -1,0 +1,478 @@
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.topbar {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(187, 11, 11);
+  display: flex;
+}
+.topbar .email {
+  width: 20%;
+  height: 50px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.topbar .email .fa-solid {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.topbar .email p a {
+  color: #ffffff;
+  font-size: 14px;
+  margin-left: 5px;
+}
+.topbar .phone {
+  width: 15%;
+  height: 50px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar .phone .fa-solid {
+  font-size: 16px;
+  color: #ffffff;
+}
+.topbar .phone p a {
+  color: #ffffff;
+  font-size: 14px;
+}
+.topbar .location {
+  width: 15%;
+  height: 50px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar .location .fa-solid {
+  font-size: 16px;
+  color: #ffffff;
+}
+.topbar .location p {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 13px;
+}
+.topbar .date-time {
+  width: 25%;
+  height: 50px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.topbar .date-time .fa-solid {
+  font-size: 13px;
+  color: white;
+}
+.topbar .date-time p {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 13px;
+}
+.topbar .social-links {
+  width: 25%;
+  height: 50px;
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar .social-links .fa-brands {
+  font-size: 16px;
+  color: white;
+}
+.topbar .social-links .fa-twitter {
+  margin-left: 10px;
+}
+.topbar .social-links .fa-instagram {
+  margin-left: 10px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: rgb(209, 201, 201);
+}
+.navbar .navbar-brand {
+  margin-left: 50px;
+}
+.navbar a {
+  color: black;
+}
+.navbar a:hover {
+  color: red;
+}
+.navbar .btn {
+  background-color: green;
+  color: white;
+}
+.navbar .btn:hover {
+  background-color: yellow;
+  color: red;
+}
+
+.one {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.one .h6 {
+  width: 15%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 100px;
+  left: 200px;
+  -webkit-animation-name: sliderh6;
+          animation-name: sliderh6;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.one .h6 h6 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #bb0b0b;
+}
+@-webkit-keyframes sliderh6 {
+  from {
+    top: 40px;
+    left: 200px;
+  }
+  to {
+    top: 100px;
+    left: 200px;
+  }
+}
+@keyframes sliderh6 {
+  from {
+    top: 40px;
+    left: 200px;
+  }
+  to {
+    top: 100px;
+    left: 200px;
+  }
+}
+.one .h1 {
+  width: 35%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 150px;
+  left: 200px;
+  -webkit-animation-name: sliderh1;
+          animation-name: sliderh1;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.one .h1 h1 {
+  font-size: 75px;
+  font-weight: 700;
+}
+@-webkit-keyframes sliderh1 {
+  from {
+    top: 300px;
+    left: 200px;
+  }
+  to {
+    top: 150px;
+    left: 200px;
+  }
+}
+@keyframes sliderh1 {
+  from {
+    top: 300px;
+    left: 200px;
+  }
+  to {
+    top: 150px;
+    left: 200px;
+  }
+}
+.one .p-text {
+  width: 30%;
+  height: 60px;
+  position: absolute;
+  top: 370px;
+  left: 200px;
+}
+.one .p-text p {
+  font-size: 17px;
+  color: #0a0a0a;
+}
+.one .slider1-btn {
+  width: 170px;
+  height: 56px;
+  background-color: #bb0b0b;
+  position: absolute;
+  top: 490px;
+  left: 200px;
+  color: #fff;
+  transition: 1.5s;
+  -webkit-animation-name: slider-btn;
+          animation-name: slider-btn;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+.one .slider1-btn:hover {
+  background-color: #600d0d;
+  color: yellow;
+}
+@-webkit-keyframes slider-btn {
+  from {
+    top: 560px;
+    left: 200px;
+  }
+  to {
+    top: 490px;
+    left: 200px;
+  }
+}
+@keyframes slider-btn {
+  from {
+    top: 560px;
+    left: 200px;
+  }
+  to {
+    top: 490px;
+    left: 200px;
+  }
+}
+
+.two {
+  width: 100%;
+  height: 750px;
+  background-color: rgb(217, 215, 215);
+  position: relative;
+}
+.two .sec2div1 {
+  width: 30%;
+  height: 100px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.two .sec2div1 .div1h6 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #bb0b0b;
+  text-transform: uppercase;
+}
+.two .sec2div1 .div1h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.two .sec2div1 .div1h2 span {
+  color: #bb0b0b;
+}
+.two .sec2div2 {
+  width: 30%;
+  height: 90px;
+  position: absolute;
+  top: 100px;
+  left: 760px;
+}
+.two .sec2div2 .sec2p {
+  font-weight: 500;
+  font-size: 15px;
+  color: #454545;
+}
+.two .carousel {
+  width: 60%;
+  height: 400px;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}
+.two .carousel h4:hover {
+  color: red;
+  cursor: pointer;
+}
+.two .carousel img:hover {
+  transform: scale(1.1, 1.1);
+  transition: all 0.9s;
+  cursor: pointer;
+}
+
+.three {
+  width: 100%;
+  height: 950px;
+  position: relative;
+}
+.three .sec3div1 {
+  width: 30%;
+  height: 500px;
+  position: absolute;
+  top: 100px;
+  left: 300px;
+}
+.three .sec3div1 .div1h6 {
+  width: 100%;
+  height: 30px;
+}
+.three .sec3div1 .div1h6 h6 {
+  font-size: 15px;
+  font-weight: 600;
+  color: #bb0b0b;
+}
+.three .sec3div1 .div1h1 {
+  width: 100%;
+  height: 80px;
+}
+.three .sec3div1 .div1h1 h1 {
+  font-weight: 700;
+  font-size: 32px;
+}
+.three .sec3div1 .div1h1 h1 span {
+  color: #bb0b0b;
+}
+.three .sec3div1 .div1p1 {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.three .sec3div1 .div1p1 p {
+  font-size: 15px;
+  font-weight: 500;
+  color: #454545;
+}
+.three .sec3div1 .div1skillbar {
+  width: 100%;
+  height: 60px;
+}
+.three .sec3div1 .div1skillbar .skillbartext1 {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.three .sec3div1 .div1skillbar2 {
+  width: 100%;
+  height: 60px;
+}
+.three .sec3div1 .div1skillbar2 .skillbartext2 {
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.three .sec3div1 .div1-btn {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.three .sec3div1 .div1-btn button {
+  width: 190px;
+  height: 60px;
+  background-color: #bb0b0b;
+  color: white;
+  transition: 1.5s;
+}
+.three .sec3div1 .div1-btn button:hover {
+  background-color: #600d0d;
+  color: yellow;
+}
+.three .sec3div2 {
+  width: 35%;
+  height: 450px;
+  position: absolute;
+  top: 100px;
+  left: 770px;
+}
+.three .working-experience {
+  width: 12%;
+  height: 150px;
+  background-color: red;
+  position: absolute;
+  top: 400px;
+  left: 770px;
+}
+.three .working-experience .sub-text {
+  width: 50%;
+  height: 80px;
+  position: absolute;
+  top: 20px;
+  left: 50px;
+}
+.three .working-experience .sub-text p {
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.three .working-experience .text-title {
+  width: 70%;
+  height: 40px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+.three .working-experience .text-title p {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.three .cardsdiv1 {
+  width: 15%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 700px;
+  left: 200px;
+}
+.three .cardsdiv2 {
+  width: 15%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 700px;
+  left: 500px;
+}
+.three .cardsdiv3 {
+  width: 15%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 700px;
+  left: 800px;
+}
+.three .cardsdiv4 {
+  width: 15%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 700px;
+  left: 1100px;
+}/*# sourceMappingURL=style.css.map */
